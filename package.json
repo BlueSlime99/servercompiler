@@ -21,8 +21,8 @@
     "url": "https://github.com/BlueSlime99/servercompiler/issues"
   },
   "homepage": "https://github.com/BlueSlime99/servercompiler#readme",
-  "description": "",
   "devDependencies": {
     "webpack-cli": "^3.3.12"
-  }
+  },
+  "description": ""
 }
