@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
-  "author": "",
+  "author": "warda boussayed",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
@@ -24,5 +25,5 @@
   "devDependencies": {
     "webpack-cli": "^3.3.12"
   },
-  "description": ""
+  "description": "compiler server"
 }
