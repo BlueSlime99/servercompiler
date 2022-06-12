@@ -25,7 +25,7 @@ app.post("/compile", (req, res) => {
     });
     let config = {
         method: 'post',
-        url: 'https://compilerapipa.herokuapp.com/',
+        url: 'https://codex-api.herokuapp.com/',
         headers: {
             "Content-Type": 'application/json',
         },
