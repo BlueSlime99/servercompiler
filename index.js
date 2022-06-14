@@ -23,7 +23,7 @@ app.post("/compile", (req, res) => {
         "input": input
 
     });
-    @cors(origin)
+    //@cors(origin)
     let config = {
         method: 'post',
         url: 'https://codex-api.herokuapp.com/',
