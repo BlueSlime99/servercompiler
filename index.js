@@ -6,7 +6,6 @@ const PORT = 8000;
 
 app.use(cors());
 app.use(express.json());
-res.header( "Access-Control-Allow-Origin" );
 
 
 app.post("/compile", (req, res) => {
