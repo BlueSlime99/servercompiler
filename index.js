@@ -27,7 +27,7 @@ app.post("/compile", (req, res) => {
     //@cors(origin)
     let config = {
         method: 'post',
-        url: 'https://codex-api.herokuapp.com/',
+        Origin: 'https://codex-api.herokuapp.com/',
         headers: {
             "Accept":"application/json, text/plain, /",
             "Content-Type": "multipart/form-data",
