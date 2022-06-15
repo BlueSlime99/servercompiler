@@ -7,6 +7,7 @@ const PORT = 8000;
 app.use(cors());
 app.use(express.json());
 
+
 app.post("/compile", (req, res) => {
     let code = req.body.code;
     let language = req.body.language;
@@ -28,7 +29,8 @@ app.post("/compile", (req, res) => {
         method: 'post',
         url: 'https://codex-api.herokuapp.com/',
         headers: {
-            "Content-Type": 'application/json',
+            "Accept":"application/json, text/plain, /",
+            "Content-Type": "multipart/form-data",
         },
         data: data
     };
