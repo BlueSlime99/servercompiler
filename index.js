@@ -31,6 +31,7 @@ app.post("/compile", (req, res) => {
         headers: {
             "Accept":"application/json, text/plain, /",
             "Content-Type": "multipart/form-data",
+            "Access-Control-Allow-Origin": "*",
         },
         data: data
     };
