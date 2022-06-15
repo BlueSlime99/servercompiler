@@ -6,6 +6,7 @@ const PORT = 8000;
 
 app.use(cors());
 app.use(express.json());
+res.header( "Access-Control-Allow-Origin" );
 
 
 app.post("/compile", (req, res) => {
@@ -29,8 +30,7 @@ app.post("/compile", (req, res) => {
         method: 'post',
         url: 'https://codex-api.herokuapp.com/',
         headers: {
-            "Accept":"application/json, text/plain, /",
-            "Content-Type": "multipart/form-data",
+            "Content-Type": 'application/json',
         },
         data: data
     };
